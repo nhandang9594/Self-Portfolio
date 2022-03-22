@@ -1,7 +1,10 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+import Menu from "./components/utilis/Menu/Menu";
+
 function App() {
   return (
     <div className="App">
-      <p>This is Port Folio</p>
+      <Menu />
     </div>
   );
 }

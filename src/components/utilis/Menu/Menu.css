@@ -1,0 +1,25 @@
+.navbar {
+  background-color: black;
+}
+
+/* Hamburger button */
+.menu-btn {
+  cursor: pointer;
+  display: flex;
+  height: 3.25rem;
+  position: relative;
+  width: 3.25rem;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+}
+.menu-btn:focus {
+  box-shadow: none;
+}
+.menu-btn__burger {
+  width: 45px;
+  height: 5px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+}
